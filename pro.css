@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.div1 {
+    background-color: orange;
+    text-shadow: 1px 2px aqua;
+    height: 100px;
+}
+
+li a {
+    background-color: #2b2624;
+    color: #fff200;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+}
+
+li a:hover {
+    background-color: crimson;
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+li a:active {
+    background-color: ghostwhite;
+    color: green;
+}
+
+#pro {
+    height: 250px;
+    width: 250px;
+    border: whitesmoke;
+    border-width: 20px;
+    color: greenyellow;
+    padding: 5px;
+    float: right;
+}
+
+#align,
+#float {
+    float: left;
+    display: inline;
+}
+
+img {
+    height: 150px;
+    width: 250px;
+    float: left;
+}
+
+#pro:hover {
+    box-shadow: 10px 10px 10px gray;
+    border: black;
+}

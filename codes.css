@@ -1,0 +1,23 @@
+li a {
+    background-color: #2b2624;
+    color: #fff200;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+}
+
+li a:hover {
+    background-color: crimson;
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+li a:active {
+    background-color: ghostwhite;
+    color: green;
+}
+
+body {
+    background-color: black;
+    opacity: 0.8;
+}
